@@ -8,10 +8,9 @@ int main(){
     int flag = 0;
     for (int i = 0; i < MAX; i++)
     {
-        for (int j = 0; j < MAX;j++)
-    {
-        M[i][j]=0;
-    }
+        for (int j = 0; j < MAX;j++){
+            M[i][j]=0;
+        }
     }
     
     fflush(stdin);
